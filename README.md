@@ -100,3 +100,11 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+
+### Additional comments
+
+This repo contains 3 files:
+1. README.md - this file
+2. cachemean.R - R-script from above pieces of code just for testing
+3. cachematrix.R - my solution of assignment. Last modified 18-04-2014
