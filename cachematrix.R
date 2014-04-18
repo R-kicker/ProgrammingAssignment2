@@ -1,7 +1,7 @@
 ## function `makeCacheMatrix` produces special list
 ## with ability to synchronize with cached inverse matrix
-## Short comment describing steps of the functions written
-## inside function body just for peers
+## Short comment describing steps of the function
+## written inside its' body
 
 makeCacheMatrix <- function(x = matrix()) {
   cacheInv <- NULL
@@ -30,8 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## function `cacheSolve` returns a matrix that is the inverse of 'x'
 ## NB! assumption: `x` must be a `special matrix object` created by
-## `makeCacheMatrix` function from always invertible matrix,
-## neither is being checked
+## `makeCacheMatrix` function from always invertible matrix, neither is being checked
 
 cacheSolve <- function(x, ...) {
   mInv <- x$getInv()
